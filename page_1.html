@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script language = "JavaScript">
+    // Task1:
+    // alert('Hello world');
+
+    // Task 2:
+    // alert( `Результат: ${158 + 2}` );
+
+    // const a = Number.parseFloat(prompt('Введите число 1'));
+    // const b = Number.parseFloat(prompt('Введите число 2'));
+    // alert(`Результат сложения чисел ${a} и ${b} равен ${a+b}.`);
+
+    // Task 3:
+    // let name = 'Надежда';
+    // alert( `Привет, ${name}!` );
+
+    // Task 4:
+    // let name = prompt('Как Вас зовут?', 'Имя');
+    // alert (name);
+    
+    // Task 5:
+    // let name = 'Надежда'
+    // function showMessage() {
+    //     let message = 'Привет,' + name;
+    //     alert(message);
+    // }
+    // showMessage()
+
+    // Task 6:
+    // if (confirm('Вы уверены?')) {
+    //     alert ('Мы рады, что вы уверены!');
+    // } else {
+    //     alert ('Жаль, что вы не уверены!');
+    // }
+
+    // Task 7:
+    // let age = prompt('Сколько Вам лет?')
+    // switch(age) {
+    //     case '18':
+    //         alert('Вы совершеннолетний, все можно!');
+    //         break;
+    //     case '10':
+    //         alert('Вам надо учить уроки!');
+    //         break;
+    //     case '30':
+    //         alert('Ложитесь спать, завтра на работу!');
+    //         break;
+    //     default:
+    //         alert('Мы не знаем, что Вам делать!');
+    //         break;
+    // }
+
+    //  HOME_WORK_3:
+
+    let name = prompt('Как Вас зовут?', 'Имя');
+    
+    while (confirm(`Вы ввели ${name}, верно?`) == false) {
+        prompt('Введите снова', 'Имя');
+    } 
+    alert(`Привет, ${name}!`);
+
+    // Не получилось:
+    // let name = prompt('Как Вас зовут?');   
+    // while (name == ''){
+    //     prompt('Вы ничего не ввели, введите имя:')
+    // }
+    // alert(`Привет, ${name}!`);
+  
+</script>
+</body>
+</html>
